@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "serviceName":"Top of the line equipment",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527371056592-L75M5EDHH5PLT98C0YZ4/equipment.jpg?format=300w",
+        "description":"Klub 20 is proud to hold top of the line Technogym equipment. We make sure that we have all the equipment necessary for a fantastic workout no matter what your style may be. We have a variety of dumbbells that go up to 110lbs, 4 squat racks and 2 smith machines for our heavy lifters. For our cardio lovers we are equipped with a multitude of treadmills, ellipticals, stairmasters and rowing machines. All of our electronic machines include a touch screen where you can watch videos, listen to music, or search the internet.",
+        "price":"$20",
+        "instructor":"Jhon Mills",
+        "email":"JhonMills@gmail.com"
+    },
+    {
+        "id":2,
+        "serviceName":"Spinning Studio",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527371070176-DJDFBMMJIVO9FJK4RYTI/spinning+2.jpg?format=300w",
+        "description":"Whether you are a seasoned spinner, an avid road biker or just eager to test out a class for the first time, Klub20 spinning has you covered! Our spacious spin room is equipped with 40 spin bikes making it easy to cater to everyone’s indoor cycling needs. Our diverse class schedule offers 6am classes for the early morning  bird, noon classes to those looking to take advantage of an indoor ride on their lunch break, and those looking to let lose after a long day of work.  The environment in a spin class in unbeatable!",
+        "price":"$25",
+        "instructor":"Kayla",
+        "email":"Kayla@gmail.com"
+    },
+    {
+        "id":3,
+        "serviceName":"Zumba classes",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527373161567-MYY99L2349EXPIVZWWRS/zumba+girl+beaconsfield+west+island.png?format=300w",
+        "description":"Join the party! Zumba is a dance based workout. The styles of dance include hip hop, samba, mambo , salsa and more. If you love to swing your hips and groove to the beat – Zumba is a must try. The instructors create a lively environment with great music and great peopleallowing you to burn calories without even realizing you are working out! This high calorie burning workout will help shed excess body fat and tone and tighten all the right places! The choreographed dance moves will help get your heart pumping and increase your endurance.",
+        "price":"$18",
+        "instructor":"James walter",
+        "email":"jameswalter@gmail.com"
+    },
+    {
+        "id":4,
+        "serviceName":"Functional Training Area",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527371111130-L1QLQ5GD48TL3KVQPH8H/sled+push.jpg?format=300w",
+        "description":"Functional training has become one of the trendiest most effective workouts possible. For this reason we have added a new turf area in our gym allowing everyone to benefit from this type of training. This turf area is available for all of our members at all time and is never reserved. This provides our members with enough space to move, jump, hop, and shuffle! In this section we have added selected accessories such as a weighted sled, a tire and a batlle rope. These accessories allow for a great functional circuit!",
+        "price":"$20",
+        "instructor":"Tommy walt",
+        "email":"tommywalt@gmail.com"
+    },
+    {
+        "id":5,
+        "serviceName":"Yoga Classes",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527371120023-H6VVQPQWVSTVIYVGFO8F/yoga.jpg?format=300w",
+        "description":"At Klub 20, we understand that life can get busy and tiring. That is why we have so many different classes available to you from sun rise to sun set. In the recent years, yoga has gained a huge following and has increased in popularity. Many people are starting to practice yoga and are seeing the great physical and mental benefits. Yoga practice is a great way to strengthen the bond between your mind and your body. It is also a great way to learn to appreciate your body and its abilities.",
+        "price":"$15",
+        "instructor":"Marie Kane",
+        "email":"mariekane@gmail.com"
+    },
+    {
+        "id":6,
+        "serviceName":"Aerobics classes",
+        "image":"https://images.squarespace-cdn.com/content/v1/540e6df4e4b037d78af474c8/1527371209580-1G2S5L9JR7KOKPHHX4TB/jump+rope.jpg?format=300w",
+        "description":"If you enjoy taking classes, then Klub 20 has got you covered. We have group fitness classes all week long and throughout the day. Aerobic classes are meant to make you move, sweat and get a little out of breath – it’s all part of the Klub 20 fun! We host a variety of different classes that cater to all kinds of interests.  Whether you want to focus more on muscular endurance, flexibility or simply improve your cardio-vascular endurance, we have many different classes for you to choose from. We have many classes that include the use of free weights, kettle balls, exercise balls, and TRX to name a few!",
+        "price":"$24",
+        "instructor":"Rosaria",
+        "email":"rosaria@gmail.com"
+    }
+]
