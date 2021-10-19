@@ -8,7 +8,7 @@ const Services = () => {
         <div>
             <h1 className="text-center">This is services</h1>
             <div className="container">
-                <div className="row g-2">
+                <div className="row g-5">
                     {
                         services.map(service => <Service
                             key={service.id}

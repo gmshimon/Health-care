@@ -3,7 +3,6 @@ import {getAuth, updateProfile} from "firebase/auth";
 import {useState} from 'react';
 import './Register.css';
 import {useHistory} from 'react-router';
-import useFirebase from '../../Hooks/UseFirebase';
 import initializeAuthentication from '../../Firebase/Firebase.init';
 import useAuth from '../../Hooks/UseAuth';
 

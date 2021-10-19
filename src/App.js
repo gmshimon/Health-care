@@ -8,6 +8,9 @@ import Header from './Components/Header/Header';
 import Details from './Components/Details/Details';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import AuthProvider from './Context/AuthProvider';
+import Footer from './Components/Footer/Footer';
+import NotFound from './Components/NotFound/NotFound';
+import Admission from './Components/Admission/Admission';
 
 function App() {
   return (
@@ -31,7 +34,14 @@ function App() {
             <PrivateRoute path="/details/:id">
               <Details></Details>
             </PrivateRoute>
+            <PrivateRoute path="/admission">
+              <Admission></Admission>
+            </PrivateRoute>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
