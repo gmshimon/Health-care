@@ -17,7 +17,7 @@ const Register = () => {
     const {user, signUpWithEmail, setUser} = useAuth();
 
     const history = useHistory();
-    const location_url = '/login';
+    const location_url = '/home';
 
     const handleSignUP = (e) => {
         e.preventDefault();

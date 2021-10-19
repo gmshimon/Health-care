@@ -11,6 +11,7 @@ import AuthProvider from './Context/AuthProvider';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
 import Admission from './Components/Admission/Admission';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/admission">
               <Admission></Admission>
+            </PrivateRoute>
+            <PrivateRoute path="/contact">
+              <Contact></Contact>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
