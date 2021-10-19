@@ -1,11 +1,12 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Button, Card} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 const Service = (props) => {
-    const {serviceName, image, description} = (props.service);
+    const {id, serviceName, image, description} = (props.service);
     console.log(serviceName, image, description)
     return (
-        <div className="col-4">
+        <div className="col-4" id="service">
             <Card>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
@@ -15,7 +16,9 @@ const Service = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <Link to={`/details/${id}`}>
+                        <Button variant="primary">Details</Button>
+                    </Link>
                 </Card.Footer>
             </Card>
         </div>

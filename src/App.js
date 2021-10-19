@@ -5,26 +5,35 @@ import Register from './Components/Register/Register';
 import Home from './Components/Home/Home';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Header from './Components/Header/Header';
+import Details from './Components/Details/Details';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div>
-      {/* <Login></Login> */}
-      {/* <Register></Register> */}
-      <BrowserRouter>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+            <PrivateRoute path="/details/:id">
+              <Details></Details>
+            </PrivateRoute>
+          </Switch>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

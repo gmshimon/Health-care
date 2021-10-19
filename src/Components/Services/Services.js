@@ -1,13 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+import LoadData from '../../LoadData/LoadData';
 import Service from './Service';
 
 const Services = () => {
-    const [services, setServices] = useState([])
-    useEffect(() => {
-        fetch('/services.json')
-            .then(result => result.json())
-            .then(data => setServices(data))
-    }, [])
+    const [services] = LoadData();
     return (
         <div>
             <h1 className="text-center">This is services</h1>
